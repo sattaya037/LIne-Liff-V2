@@ -6,7 +6,7 @@ const myLiffId = process.env.MY_LIFF_ID;
 var train = require('./train');
 
 app.use(express.static('public'));
-server.use(body_parser.json());
+app.use(body_parser.json());
 
 app.get('/send-id', function(req, res) {
     res.json({id: myLiffId});
