@@ -2,12 +2,12 @@ var intent = [
   {
       "id": 1,
       "message": "trainbot>",
-      "reply": "trainbot",
+      "reply": "trainbot"
   },
   {
       "id": 2,
       "message": "test2",
-      "reply": "Sir Crocodile",
+      "reply": "Sir Crocodile"
   }
   ];
    
