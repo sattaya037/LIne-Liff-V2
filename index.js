@@ -12,5 +12,8 @@ app.get('/send-id', function(req, res) {
 app.get('/intent', function (req, res) {
     res.json(train.intent());
 });
-
+app.post('/newintent', function (req, res) {
+	var json = req.body;
+	res.send('Add new ' + json.name + ' Completed!');
+});
 app.listen(port, () => console.log(`app listening on port ${port}!`));
