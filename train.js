@@ -1,13 +1,13 @@
 var intent = [
   {
-      "id": "1",
-      "message": "trainbot>",
-      "reply": "trainbot"
+      id: 1,
+      message: "trainbot>",
+      reply: "trainbot"
   },
   {
-      "id": "2",
-      "message": "test2",
-      "reply": "Sir Crocodile"
+      id: 2,
+      message: "test2",
+      reply: "Sir Crocodile"
   }
   ];
    
