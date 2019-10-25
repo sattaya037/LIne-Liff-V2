@@ -15,8 +15,9 @@ app.get('/send-id', function(req, res) {
 app.get('/intent', function (req, res) {
     res.json(train.intent());
 });
-app.post('/newintent', function (req, res) {
-    train.push(req.body)
+app.post('/new', function (req, res) {
+
+    train.intent().push(req.body)
     res.status(201).json(req.body)
     
 });
