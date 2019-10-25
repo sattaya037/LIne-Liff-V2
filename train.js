@@ -1,8 +1,8 @@
 var intent = [
   {
       "id": 1,
-      "message": "test",
-      "reply": "Gol D. Roger",
+      "message": "train>",
+      "reply": "พิมพ์คำสั่ง trainbot> ตามด้วย ข้อความ และ ข้อความตอบกลับเช่น 'trainbot> 1+1 =2' ",
   },
   {
       "id": 2,
