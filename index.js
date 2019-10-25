@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
-const body_parser = require('body-parser');
+const bodyParser  = require('body-parser');
 const myLiffId = process.env.MY_LIFF_ID;
 var train = require('./train');
 
