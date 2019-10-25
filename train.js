@@ -1,11 +1,11 @@
 var intent = [
   {
-      "id": 1,
+      "id": "1",
       "message": "trainbot>",
       "reply": "trainbot"
   },
   {
-      "id": 2,
+      "id": "2",
       "message": "test2",
       "reply": "Sir Crocodile"
   }
